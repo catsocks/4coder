@@ -393,7 +393,7 @@ default_4coder_one_panel(Application_Links *app, Buffer_Identifier buffer){
 
 static void
 default_4coder_one_panel(Application_Links *app, char **command_line_files, int32_t file_count){
-    Buffer_Identifier buffer = buffer_identifier(literal("*messages*"));
+    Buffer_Identifier buffer = buffer_identifier(literal("*scratch*"));
     
     if (file_count > 0){
         char *name = command_line_files[0];

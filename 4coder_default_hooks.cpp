@@ -24,7 +24,7 @@ START_HOOK_SIG(default_start){
     named_map_count = ArrayCount(named_maps_values);
     
     default_4coder_initialize(app);
-    default_4coder_side_by_side_panels(app, files, file_count);
+    default_4coder_one_panel(app, files, file_count);
     
     if (global_config.automatically_load_project){
         load_project(app);
