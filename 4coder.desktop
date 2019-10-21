@@ -3,5 +3,5 @@ Type=Application
 Name=4coder
 MimeType=text/plain;
 Category=Development;TextEditor
-Exec=/opt/4coder/4ed $0
+Exec=/opt/4coder/4ed $f
 Icon=4coder
