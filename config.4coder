@@ -42,12 +42,12 @@ indent_with_tabs = false;
 indent_width = 4;
 
 // Theme
-default_theme_name = "4coder";
+default_theme_name = "Wombat";
 highlight_line_at_cursor = true;
 
 // Font
-default_font_name = "Liberation Mono";
-default_font_size = 16;
+default_font_name = "Cascadia Code";
+default_font_size = 13;
 default_font_hinting = false;
 
 // User
